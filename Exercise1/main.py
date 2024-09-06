@@ -1,16 +1,7 @@
-
-
 wiiprice = 100
-
 money = float(input("How much money do you have? "))
-
-
 wiis_affordable = int(money // wiiprice)
-
-
 more_money_needed = wiiprice - (money % wiiprice)
-
-
 
 if money < 100:
     print("You can't afford Nintendo Wiis.")
@@ -25,7 +16,6 @@ x = int (input("Enter a number: "))
 for a in range(1, x+1):
     factorial = factorial * a
 print("The Factorial of ",x, "is", factorial)
-
 
 factors = 1
 num = int(input("Enter a number: "))
